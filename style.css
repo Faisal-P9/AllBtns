@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 200px 0px;
+}
+
+.btn_wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+#apto0, #apto0_active, #inter0, #inter0_active, #swipe0, #swipe0_active {
+    width: 22%;
+    height: 22%;
+}
+
+#apto0, #apto1, #apto2, #apto3, #apto4, #apto5 {
+    display: none;
+}
+
+#apto0_active, #apto1_active, #apto2_active, #apto3_active, #apto4_active, #apto5_active {
+    display: block;
+}
+
+#inter0_active, #inter1_active, #inter2_active, #inter3_active, #inter4_active, #inter5_active {
+    display: none;
+}
+
+#swipe0_active, #swipe1_active, #swipe2_active, #swipe3_active, #swipe4_active, #swipe5_active {
+    display: none;
+}
